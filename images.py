@@ -10,7 +10,7 @@ from PIL import Image
 import time
 
 # webdriver local path
-PATH = "C:\\Users\\Joyce\\Documents\\Clustering images\\chromedriver.exe"
+PATH = "/home/imali/Downloads/Output/clusterimages/chromedriver.exe"
 wd = webdriver.Chrome(PATH)
 
 def get_images_from_google(wd, delay, max_images):

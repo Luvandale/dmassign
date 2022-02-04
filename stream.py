@@ -2,6 +2,11 @@ from turtle import width
 import streamlit as st
 from PIL import Image
 import os
+import sys
+if sys.version_info[0] == 3:
+    import tkinter as tk
+else:
+    import Tkinter as tk
 
 st.write(
     """
