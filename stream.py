@@ -3,6 +3,7 @@ import streamlit as st
 from PIL import Image
 import os
 import sys
+import _tkinter
 if sys.version_info[0] == 3:
     import tkinter as tk
 else:
